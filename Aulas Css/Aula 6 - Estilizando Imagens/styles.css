@@ -1,0 +1,27 @@
+img{
+    height: 300px;
+    /* define a altura da imagem */
+    border-radius: 50px;
+    /* define o raio da borda da imagem */
+    border: 5px solid #ffee00;
+    /* define a cor e a espessura da borda da imagem */
+    filter: blur(10px);
+    /* aplica efeitos a imagem */
+}
+
+div{
+    background-image: url(Assets/Photos/IMG_9579.JPG);
+    /* define a imagem de fundo da div */
+    height: 300px;
+    /* define a altura da div */
+    width: 300px;
+    /* define a largura da div */
+    background-size: cover;
+    /* define o tamanho da imagem de fundo */
+    background-position: center;
+    /* define a posição da imagem de fundo */
+    border-radius: 50%;
+    /* define o raio da borda da div */
+    border: 5px solid #ffee00;
+    /* define a cor e a espessura da borda da div */
+}

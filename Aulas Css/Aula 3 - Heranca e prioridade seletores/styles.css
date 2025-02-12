@@ -1,0 +1,39 @@
+h3{
+    color: red;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+h1{
+    color: blue;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+h2{
+    color: green;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+section{
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+}
+
+.textoAzul{
+    color: rgb(47, 0, 255);
+}
+
+#textoRosa{
+    color: pink;
+}
+
+.textoBold{
+    font-weight: bold;
+}
+
+nav {
+    font-size: 30px;
+}

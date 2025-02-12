@@ -1,0 +1,24 @@
+#caixa1, #caixa2{
+    width: 200px;
+    height: 200px; 
+}
+
+
+#caixa1{
+    background-color: red; /* cor de fundo da caixa*/
+    /* margin: 0px 0px 10px 10px; cria um espaço externo fora da caixa */
+    margin-bottom: 10px; /* cria um espaço externo fora da caixa na parte de baixo*/
+    padding: 20px; /* cria um espaço interno dentro da caixa*/
+    border: 5px solid black; /* cria uma borda na caixa*/
+    /*box-sizing: content-box; /* define o tamanho da caixa incluindo o padding e a borda*/
+    box-sizing: border-box; /* define o tamanho da caixa incluindo o padding e a borda*/
+}
+
+#caixa2{
+    background-color: blue;
+    
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+

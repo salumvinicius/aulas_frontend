@@ -1,0 +1,30 @@
+.fotoVinicius{
+    height: 300px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.noticias{
+    overflow: auto;
+
+}
+.csss{
+    height: 24px;
+    padding-top: 12px;
+}
+
+nav{
+    background-color: rgb(209, 209, 209);
+    padding: 0 40px;
+    height: 50px;
+}
+
+ul{
+    float: right;
+
+    li{
+        display: inline-block;
+        line-height: 0%;
+        margin-right: 20px;
+    }
+}

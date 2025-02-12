@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Aulas HTML",
+			"path": "../Aulas HTML"
+		},
+		{
+			"name": "Aulas Css",
+			"path": "."
+		},
+		{
+			"name": "Projeto-Site-Links",
+			"path": "../Projeto-Site-Links"
+		}
+	],
+	"settings": {}
+}

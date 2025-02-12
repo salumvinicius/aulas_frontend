@@ -1,0 +1,49 @@
+h1{
+    color: rgba(255, 0, 0);
+}
+
+#hexadecimal{
+    color: #0000ff;
+}
+
+#hexadecimalComOpacidade{
+    color: #0000ff60;
+}
+
+#rgb{
+    color: rgb(0, 255, 0);
+}
+
+#rgba{
+    color: rgba(255, 0, 255, 0.5);
+}
+
+body{
+    background-color: #b9b9b9;
+}
+
+section{
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+}
+
+#porcentagem{
+    font-size: 150%; /* 150% do tamanho do elemento pai */
+}
+
+#em{
+    font-size: 2em; /* 2 vezes o tamanho do elemento pai */
+}
+
+#rem{
+    font-size: 3rem; /* 3 vezes o tamanho do elemento raiz */
+}
+
+#caixa{
+    background-color: #ff000063; 
+    margin: 20px; /* 20px em todas as direções */
+    width: 50%; /* 50% da largura do elemento pai */
+    height: 50vh; /* 50% da altura da janela do navegador */
+    /*width: 5rem;  5 vezes o tamanho do elemento raiz */
+}

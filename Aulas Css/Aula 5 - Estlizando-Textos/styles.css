@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* importando a fonte do google fonts */
+
+p{
+    font-family: "Rubik", sans-serif; /* primeiro é a fonte que eu quero usar, e o segundo é a fonte padrão caso a primeira não funcione */
+    /* fontes padrões: Arial, sans-serif; */
+
+    font-weight: bold; 
+    /* define o peso da fonte, por exemplo, bold, normal, 100, 200, 300, 400, 500, 600, 700, 800, 900 */
+
+    font-style: italic; 
+    /* define o estilo da fonte, por exemplo, italic, normal, oblique */
+
+    text-transform: uppercase; 
+    /* transforma o texto, por exemplo, uppercase, lowercase, capitalize */
+
+
+}
+
+#exemplo{
+    text-transform: lowercase;
+
+    font-size: 300%; 
+    /* define o tamanho da fonte, por exemplo, 10px, 1em, 100%, 1rem */
+
+    font-weight: lighter;
+
+    text-align: center; 
+    /* alinha o texto, por exemplo, center, left, right, justify */
+
+    display: block;
+    /* define o tipo de display, por exemplo, block, inline, inline-block, none */
+
+    background-color: #f00;
+}
