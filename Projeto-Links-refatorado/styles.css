@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(120deg, #0038FF, #E48F41);
+    height: 100vh;
+}
+
+#fotoPerfil{
+    background-image: url("Assets/IMG_9579.JPG");
+    height: 255px;
+    width: 255px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+h1{
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 32px 0px 27px 0px;
+}
+
+.buttonSocial{
+    border-radius: 20px;
+    width: 255px;
+    height: 40px;
+    display: flex;
+    background-color: #00000035;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 27px;
+    padding-left: 35px;
+    cursor: pointer;
+    align-items: center;
+    margin: 27px auto;
+    
+    img{
+        height: 24px;;      
+    }
+
+    p{
+        padding-left: 10px;
+        font-size: 1.125rem;
+    }
+}
+
+.buttonSocial:hover{
+    background-color: #00000050;
+}
+
+
+#contentParents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
