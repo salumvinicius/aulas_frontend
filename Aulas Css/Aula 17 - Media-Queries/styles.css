@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Anton SC", sans-serif;
+    font-size: 5rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.textsContainer{
+    padding: 1rem;
+}
+
+.imagesContainer{
+    display: flex;
+}
+
+.image1{
+    background-image: url("assets/photos/IMG_9579.JPG");
+    height: 400px;
+    width: 50vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.image2{
+    background-image: url("assets/photos/Imagem\ do\ WhatsApp\ de\ 2025-02-10\ à\(s\)\ 10.46.38_c8fcb8dd.jpg");
+    height: 400px;
+    width: 50vw;
+    background-size: cover;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+
+    .imagesContainer{
+        flex-direction: column;
+    }
+
+    .image1,.image2{
+        width: 100vw;
+    }
+}
