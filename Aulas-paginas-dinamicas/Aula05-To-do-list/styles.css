@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    padding: 1rem;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 7px;
+}
+
+.tasksContainer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style-type: none;
+}
